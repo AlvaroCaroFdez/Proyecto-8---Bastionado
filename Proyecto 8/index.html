@@ -1,0 +1,125 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Guía para bastionar Router TP-Link Archer C50</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="Proyecto 8"
+                  title="Guía para bastionar Router TP-Link Archer C50"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Introducción" duration="0">
+        <p>En esta guía vamos a definir los pasos necesarios para mejorar la seguridad del router <strong>TP-LINK Archer C50</strong>. El objetivo es proteger tanto la red como los dispositivos conectados frente a posibles vulnerabilidades y ataques cibernéticos.</p>
+<p>Describiremos cómo cambiar las contraseñas, configurar el cifrado WiFi, desactivar funciones innecesarias y ajustar el firewall. Aplicar estas medidas nos permitirá reforzar la seguridad de nuestra red y garantizar la privacidad de los datos transmitidos.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Paso 1: Configuración inicial" duration="0">
+        <h2 is-upgraded>Cambiar credenciales predeterminadas</h2>
+<ol type="1">
+<li>Accedemos a <strong>System Tools</strong> &gt; <strong>Administration</strong>.</li>
+<li>Cambiamos el nombre de usuario y la contraseña predeterminados por unos personalizados y seguros. <img alt="Credenciales" src="img\\88983cfebb673a91.png"></li>
+<li>Guardamos los cambios.</li>
+</ol>
+<h2 is-upgraded>Actualizar el firmware</h2>
+<ol type="1">
+<li>Vamos a <strong>System Tools</strong> &gt; <strong>Firmware Upgrade</strong>. <img alt="Firmware" src="img\\9146d63892b3bcea.png"> Como podemos observar nos solicita el archivo para realizar la actualización por lo que accedemos a la página oficial de <a href="https://www.tp-link.com/es/support/download/archer-c50/#Firmware" target="_blank">TP-Link</a> para buscarlo. Descargamos la última versión estable disponible: <img alt="Firmware2" src="img\\2b032aaa98db311a.png"></li>
+<li>Instalamos la versión recién descargada: <img alt="Firmware3" src="img\\53ce438d069f1d77.png"></li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Paso 2: Configuración inalámbrica" duration="0">
+        <h2 is-upgraded>Desactivar WPS</h2>
+<ol type="1">
+<li>Accedemos a <strong>Wireless Settings</strong> &gt; <strong>WPS</strong>.</li>
+<li>Desactivamos la opción <strong>Enable WPS</strong> pulsando el botón <code>Disable</code>.Red 2.4 GHz: <img alt="WPS1" src="img\\fca53ae751c10839.png">Red 5 GHz: <img alt="WPS2" src="img\\41b07de5067d58c9.png"></li>
+<li>Guardamos los cambios.</li>
+</ol>
+<h2 is-upgraded>Configurar WPA2/WPA3 y contraseña robusta</h2>
+<ol type="1">
+<li>Vamos a <strong>Wireless Security</strong> &gt; <strong>Security</strong>.</li>
+<li>Seleccionamos WPA3 si está disponible; si no, utilizamos WPA2 con cifrado AES. En este caso seleccionamos WPA2:Red 2.4 GHz: <img alt="WPA1" src="img\\50eefd36739e8225.png">Red 5 GHz: <img alt="WPA2" src="img\\93f99d3ac7b9e2d3.png"></li>
+<li>Establecemos una contraseña segura (mínimo 16 caracteres, combinando letras, números y símbolos)</li>
+<li>Guardamos los ajustes.</li>
+</ol>
+<h2 is-upgraded>Ocultar SSID</h2>
+<ol type="1">
+<li>Entramos en <strong>Wireless Settings</strong> &gt; <strong>Basic Settings</strong>.</li>
+<li>Desactivamos la opción &#34;Broadcast SSID&#34; (Transmitir SSID).<img alt="SSID" src="img\\7ce6f5bef0f797f6.png"></li>
+<li>Aplicamos los cambios.</li>
+</ol>
+<h2 is-upgraded>Crear red para invitados</h2>
+<ol type="1">
+<li>Vamos a <strong>Guest Network</strong>.</li>
+<li>Activamos la red en las bandas <strong>2.4 GHz</strong> y <strong>5 GHz</strong>:</li>
+<li>Configuramos un nombre único (SSID) y habilitamos el cifrado WPA2 o WPA3.</li>
+<li>Guardamos los ajustes.<img alt="Red de invitados1" src="img\\538f91dcbf0c7cf6.png"><img alt="Red de invitados2" src="img\\a9b1935c2a98f057.png"></li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Paso 3: Configuraciones avanzadas" duration="0">
+        <h2 is-upgraded>Desactivar UPnP</h2>
+<ol type="1">
+<li>Accedemos a <strong>Forwarding</strong> &gt; <strong>UPnP Settings</strong>.</li>
+<li>Desactivamos la opción UPnP.</li>
+<li>Guardamos los cambios.<img alt="UPnP" src="img\\698854a8aa6afeb6.png"></li>
+</ol>
+<h2 is-upgraded>Establecer DNS manuales</h2>
+<ol type="1">
+<li>Accedemos a <strong>Network Settings</strong> &gt; <strong>Internet Settings</strong>.</li>
+<li>Desactivamos &#34;Obtener DNS automáticamente&#34;.</li>
+<li>Introducimos direcciones DNS confiables, como Google (8.8.8.8, 8.8.4.4) o Cloudflare (1.1.1.1).</li>
+<li>Aplicamos los cambios.<img alt="DNS" src="img\\76019a0ec6adf07a.png"></li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Paso 4: Mantenimiento y seguridad adicional" duration="0">
+        <h2 is-upgraded>Realizar copia de seguridad de la configuración</h2>
+<ol type="1">
+<li>Vamos a <strong>System Tools</strong> &gt; <strong>Backup &amp; Restore</strong>.</li>
+<li>Hacemos clic en &#34;Backup&#34; (Copia de seguridad) y guardamos el archivo generado en un lugar seguro. <img alt="Backup" src="img\\a76ee9605a3149a8.png"></li>
+</ol>
+<h2 is-upgraded>Conlusión</h2>
+<p>En esta guía hemos proporcionado un enfoque práctico y detallado para mejorar la seguridad del router <strong>TP-Link Archer C50</strong>, con el objetivo de proteger nuestra red y los dispositivos conectados frente a posibles vulnerabilidades y amenazas cibernéticas. A lo largo de los pasos descritos, hemos abordado configuraciones esenciales que refuerzan tanto la privacidad como la funcionalidad del dispositivo.</p>
+<p>Nos hemos centrado en aspectos clave como el cambio de credenciales predeterminadas, la actualización del firmware y la configuración de cifrado WPA2/WPA3 con contraseñas robustas, garantizando así una base sólida para la seguridad de nuestra red. Además, hemos desactivado funciones innecesarias como WPS y UPnP, que podrían ser explotadas por atacantes, y hemos incluido configuraciones avanzadas como el establecimiento de DNS manuales y la creación de redes para invitados.</p>
+<p>Finalmente, hemos destacado la importancia de realizar copias de seguridad periódicas de la configuración del router, asegurándonos de que podamos restaurar nuestros ajustes en caso de cualquier eventualidad. Con esta guía, logramos un bastionado completo del TP-Link Archer C50, proporcionando una solución eficiente y accesible para mantener nuestras redes más seguras y confiables.</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
