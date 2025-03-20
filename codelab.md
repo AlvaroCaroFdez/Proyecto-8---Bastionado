@@ -121,7 +121,7 @@ Como podemos observar nos solicita el archivo para realizar la actualización po
 
 ---
 
-### Conlusión
+## Conlusión
 En esta guía hemos proporcionado un enfoque práctico y detallado para mejorar la seguridad del router **TP-Link Archer C50**, con el objetivo de proteger nuestra red y los dispositivos conectados frente a posibles vulnerabilidades y amenazas cibernéticas. A lo largo de los pasos descritos, hemos abordado configuraciones esenciales que refuerzan tanto la privacidad como la funcionalidad del dispositivo.
 
 Nos hemos centrado en aspectos clave como el cambio de credenciales predeterminadas, la actualización del firmware y la configuración de cifrado WPA2/WPA3 con contraseñas robustas, garantizando así una base sólida para la seguridad de nuestra red. Además, hemos desactivado funciones innecesarias como WPS y UPnP, que podrían ser explotadas por atacantes, y hemos incluido configuraciones avanzadas como el establecimiento de DNS manuales y la creación de redes para invitados.
