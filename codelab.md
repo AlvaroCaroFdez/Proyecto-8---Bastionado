@@ -118,3 +118,12 @@ Como podemos observar nos solicita el archivo para realizar la actualización po
 1. Vamos a **System Tools** > **Backup & Restore**.
 2. Hacemos clic en "Backup" (Copia de seguridad) y guardamos el archivo generado en un lugar seguro.
     ![Backup](./img/15.png)
+
+---
+
+### Conlusión
+En esta guía hemos proporcionado un enfoque práctico y detallado para mejorar la seguridad del router **TP-Link Archer C50**, con el objetivo de proteger nuestra red y los dispositivos conectados frente a posibles vulnerabilidades y amenazas cibernéticas. A lo largo de los pasos descritos, hemos abordado configuraciones esenciales que refuerzan tanto la privacidad como la funcionalidad del dispositivo.
+
+Nos hemos centrado en aspectos clave como el cambio de credenciales predeterminadas, la actualización del firmware y la configuración de cifrado WPA2/WPA3 con contraseñas robustas, garantizando así una base sólida para la seguridad de nuestra red. Además, hemos desactivado funciones innecesarias como WPS y UPnP, que podrían ser explotadas por atacantes, y hemos incluido configuraciones avanzadas como el establecimiento de DNS manuales y la creación de redes para invitados.
+
+Finalmente, hemos destacado la importancia de realizar copias de seguridad periódicas de la configuración del router, asegurándonos de que podamos restaurar nuestros ajustes en caso de cualquier eventualidad. Con esta guía, logramos un bastionado completo del TP-Link Archer C50, proporcionando una solución eficiente y accesible para mantener nuestras redes más seguras y confiables.
