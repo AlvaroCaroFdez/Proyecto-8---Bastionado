@@ -7,27 +7,6 @@ status: Publicado
 
 # Guía para bastionar Router TP-Link Archer C50
 
-## ÍNDICE
-
-- [Introducción](#introducción)
-- [Paso 1: Configuración inicial](#paso-1-configuración-inicial)
-  - [Cambiar credenciales predeterminadas](#cambiar-credenciales-predeterminadas)
-  - [Actualizar el firmware](#actualizar-el-firmware)
-- [Paso 2: Configuración inalámbrica](#paso-2-configuración-inalámbrica)
-  - [Desactivar WPS](#desactivar-wps)
-  - [Configurar WPA2/WPA3 y contraseña robusta](#configurar-wpa2wpa3-y-contraseña-robusta)
-  - [Ocultar SSID](#ocultar-ssid)
-  - [Filtro MAC para WiFi](#filtro-mac-para-wifi)
-  - [Crear red para invitados](#crear-red-para-invitados)
-- [Paso 3: Configuraciones avanzadas](#paso-3-configuraciones-avanzadas)
-  - [Desactivar UPnP](#desactivar-upnp)
-  - [Configurar el firewall](#configurar-el-firewall)
-  - [Establecer DNS manuales](#establecer-dns-manuales)
-- [Paso 4: Mantenimiento y seguridad adicional](#paso-4-mantenimiento-y-seguridad-adicional)
-  - [Realizar copia de seguridad de la configuración](#realizar-copia-de-seguridad-de-la-configuración)
-
----
-
 ## Introducción
 
 En esta guía vamos a definir los pasos necesarios para mejorar la seguridad del router **TP-LINK Archer C50**. El objetivo es proteger tanto la red como los dispositivos conectados frente a posibles vulnerabilidades y ataques cibernéticos.
