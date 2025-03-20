@@ -99,19 +99,16 @@ Como podemos observar nos solicita el archivo para realizar la actualización po
 
 ---
 
-### Filtro MAC para WiFi
-1. Accedemos a **Access Control** > **MAC Filtering Settings**.
-2. Activamos el filtro MAC y seleccionamos "Permitir" solo para los dispositivos autorizados.
-3. Añadimos las direcciones MAC correspondientes.
-4. Guardamos los cambios.
-
----
-
 ### Crear red para invitados
 1. Vamos a **Guest Network**.
-2. Activamos la red en las bandas **2.4 GHz** o **5 GHz**, según sea necesario.
+2. Activamos la red en las bandas **2.4 GHz** y **5 GHz**:
 3. Configuramos un nombre único (SSID) y habilitamos el cifrado WPA2 o WPA3.
 4. Guardamos los ajustes.
+
+
+    ![Red de invitados1](./img/11.png)
+
+    ![Red de invitados2](./img/12.png)
 
 ---
 
@@ -122,18 +119,17 @@ Como podemos observar nos solicita el archivo para realizar la actualización po
 2. Desactivamos la opción UPnP.
 3. Guardamos los cambios.
 
-### Configurar el firewall
-1. Vamos a **Security** > **Firewall Settings**.
-2. Activamos las siguientes opciones:
-   - Protección contra ataques DoS.
-   - Bloqueo de pings ICMP desde Internet.
-3. Configuramos reglas específicas para permitir solo tráfico necesario.
+    ![UPnP](./img/13.png)
+
+---
 
 ### Establecer DNS manuales
 1. Accedemos a **Network Settings** > **Internet Settings**.
 2. Desactivamos "Obtener DNS automáticamente".
 3. Introducimos direcciones DNS confiables, como Google (8.8.8.8, 8.8.4.4) o Cloudflare (1.1.1.1).
 4. Aplicamos los cambios.
+
+    ![DNS](./img/14.png)
 
 ---
 
@@ -142,4 +138,4 @@ Como podemos observar nos solicita el archivo para realizar la actualización po
 ### Realizar copia de seguridad de la configuración
 1. Vamos a **System Tools** > **Backup & Restore**.
 2. Hacemos clic en "Backup" (Copia de seguridad) y guardamos el archivo generado en un lugar seguro.
-    ![Backup](./img/20.png)
+    ![Backup](./img/15.png)
